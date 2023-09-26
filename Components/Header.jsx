@@ -33,7 +33,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
       link: "#contact"
     },
   ];
-  return <div className="header_wrap fixed-top">
+  return (<div className="header_wrap fixed-top">
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg">
         <a href="#home-section"
@@ -124,7 +124,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 
       </nav>
     </div>
-  </div>;
+  </div>);
 };
 
 export default Header;
